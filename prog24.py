@@ -2,7 +2,7 @@
 class Area:
     def circle(self):
         pi=3.14
-        radius=int(input("Enter radius of circle: "))
+        radius=float(input("Enter radius of circle: "))
         area=pi*radius**2
         print("Area of Circle: ",area)
 
@@ -11,8 +11,8 @@ class Area:
         area=sqr*sqr
         print("Area if Square :",area)
     def rectangle(self):
-        rec_length=int(input("Enter length of Rectangle: "))
-        rec_width=int(input("Enter width of Rectangle:"))
+        rec_length=float(input("Enter length of Rectangle: "))
+        rec_width=float(input("Enter width of Rectangle:"))
         area=rec_length*rec_width
         print("Area of Rectangle: ",area)
     def Triangle(self):
